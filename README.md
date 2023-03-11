@@ -37,10 +37,10 @@ Flower accepts few parameters.
 | :---------------: | --------------------------------------------------- | :------: |
 | **chrome**        | Flower will be able to work with Chrome             | No       |
 | **firefox**       | Flower will be able to work with Firefox            | No       |
-| **save**          | Selects needed file format on output (txt or csv)   | Yes      |
+| **type**          | Selects needed file format on output (txt or csv)   | Yes      |
 
 Here an example how to run **Flower**:
 
 ```
-python main.py -chrome -save csv
+python main.py -chrome -type csv
 ```
