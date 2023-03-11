@@ -5,7 +5,7 @@
 
 
 # About Flower
-This script is currently working with 3 browsers. This project is alive and new browsers will be available in next commits.
+This script is currently working with 4 browsers. This project is alive and new browsers will be available in next commits.
 
 Here list of available and possible available in future browsers:
 | Browser            | Status                                |
@@ -13,7 +13,7 @@ Here list of available and possible available in future browsers:
 | Chrome             | ✅ Supported                         |
 | Firefox            | ✅ Supported                         |
 | Opera              | ✅ Supported                         |
-| Opera GX           | ❌ Will be supported in future       |
+| Opera GX           | ✅ Supported                         |
 | Edge               | ❌ Will be supported in future       |
 | Internet Explorer  | ❌ **Won't be supported**            |
 | Yandex Browser     | ❌ Will be supported in future       |
@@ -37,10 +37,12 @@ Flower accepts few parameters.
 | :---------------: | --------------------------------------------------- | :------: |
 | **chrome**        | Flower will be able to work with Chrome             | No       |
 | **firefox**       | Flower will be able to work with Firefox            | No       |
+| **opera**         | Flower will be able to work with Opera              | No       |
+| **operagx**       | Flower will be able to work with Opera GX           | No       |
 | **type**          | Selects needed file format on output (txt or csv)   | Yes      |
 
 Here an example how to run **Flower**:
 
 ```
-python main.py -chrome -type csv
+python flower.py -chrome -type csv
 ```
